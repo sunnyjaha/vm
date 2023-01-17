@@ -22,7 +22,7 @@ async def uploadVideo(
     file_size,
     upload_mode: bool,
 ):
-    # Report your errors in telegram group (@yo_codes).
+    # Report your errors in telegram group (@AmRobots_Bots).
     if Config.IS_PREMIUM:
         sent_ = None
         prog = Progress(cb.from_user.id, c, cb.message)
