@@ -71,7 +71,7 @@ mergeApp = MergeBot(
     bot_token=Config.BOT_TOKEN,
     workers=300,
     plugins=dict(root="plugins"),
-    app_version="5.0+yash-mergebot",
+    app_version="5.0+anurag-mergebot",
 )
 
 
@@ -430,7 +430,7 @@ async def media_extracter(c: Client, m: Message):
             mid=rmess.id
             file_name = media.file_name
             if file_name is None:
-                await m.reply("File name not found; goto @yashoswalyo")
+                await m.reply("File name not found; goto @AmRobots_Bots")
                 return
             markup = bMaker.makebuttons(
                 set1=["Audio", "Subtitle", "Cancel"],
@@ -488,10 +488,10 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/yashoswalyo")],
+                [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/am_robots")],
                 [
                     InlineKeyboardButton(
-                        "🏘Source Code🏘", url="https://github.com/yashoswalyo/MERGE-BOT"
+                        "🏘Source Code🏘", url="https://t.me/AmRobots_Bots"
                     ),
                     InlineKeyboardButton(
                         "🤔Deployed By🤔", url=f"https://t.me/{Config.OWNER_USERNAME}"
@@ -741,7 +741,7 @@ if __name__ == "__main__":
         with userBot:
             userBot.send_message(
                 chat_id=int(LOGCHANNEL),
-                text="Bot booted with Premium Account,\n\n  Thanks for using <a href='https://github.com/yashoswalyo/merge-bot'>this repo</a>",
+                text="Bot booted with Premium Account,\n\n  Thanks for using <a href='https://t.me/AmRobots_Bots'>this repo</a>",
                 disable_web_page_preview=True,
             )
             user = userBot.get_me()
