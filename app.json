@@ -12,38 +12,38 @@
 	"stack": "container",
 	"env": {
 		"API_HASH": {
-			"description": "Make Config on gist and paste raw link "
+	        "description": "Make Config on gist and paste raw link "
 		},
-    "BOT_TOKEN": {
-			"description": "Make Config on gist and paste raw link "
+                "BOT_TOKEN": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "TELEGRAM_API": {
-			"description": "Make Config on gist and paste raw link "
+                "TELEGRAM_API": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "OWNER": {
-			"description": "Make Config on gist and paste raw link "
+                "OWNER": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "OWNER_USERNAME": {
-			"description": "Make Config on gist and paste raw link "
+                "OWNER_USERNAME": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "PASSWORD": {
-			"description": "Make Config on gist and paste raw link "
+                "PASSWORD": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "DATABASE_URL": {
-			"description": "Make Config on gist and paste raw link "
+                "DATABASE_URL": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "LOGCHANNEL": {
-			"description": "Make Config on gist and paste raw link "
+                "LOGCHANNEL": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "GDRIVE_FOLDER_ID": {
-			"description": "Make Config on gist and paste raw link "
+                "GDRIVE_FOLDER_ID": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "USER_SESSION_STRING": {
-			"description": "Make Config on gist and paste raw link "
+                "USER_SESSION_STRING": {
+		"description": "Make Config on gist and paste raw link "
 		},
-    "IS_PREMIUM": {
-			"description": "Make Config on gist and paste raw link "
-		},
+                "IS_PREMIUM": {
+		"description": "Make Config on gist and paste raw link "
+		}
     
 	},
 	"formation": {
