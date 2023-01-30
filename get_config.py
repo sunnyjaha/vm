@@ -25,8 +25,8 @@ load_dotenv(
     override=True,
 )
 # tired of redeploying :(
-UPSTREAM_REPO = os.environ.get('UPSTREAM_REPO')
-UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH')
+UPSTREAM_REPO = os.environ.get('UPSTREAM_REPO', 'https://github.com/sunnyjaha/vm')
+UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH', 'master')
 try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
